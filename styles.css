@@ -35,6 +35,17 @@
   
 }
 
+.wb-PKR-slider::-moz-range-thumb{
+    width:25px;
+    height:25px;
+    background:blue;
+    border:1px solid green;
+    box-shadow: -100vw 0 0 calc(100vw - 12px) red;
+    cursor:pointer;
+    border-radius: 50%; 
+    z-index:999
+}
+
 span{
     font-size:13px;
     font-family:'Courier New', Courier, monospace;
